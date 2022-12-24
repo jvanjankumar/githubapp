@@ -32,9 +32,8 @@ steps:
   inputs:
     SonarCloud: 'sonar'
     organization: 'anjantech'
-    scannerMode: 'MSBuild'
-    projectKey: 'Sonartest1'
-    projectName: 'Sonartest1'
+    scannerMode: 'CLI'
+    configMode: 'file'
 
 - task: SonarCloudAnalyze@1
 
